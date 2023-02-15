@@ -1,0 +1,36 @@
+table{
+    border-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+th, td{
+    border: 1px solid; color: darkblue;    
+}
+
+td, th{
+    border-bottom: none;
+    border-right: none;
+}
+
+tr th:last-child,
+tr td:last-child{
+    border-right: 1px solid;    
+}
+
+tr:last-child td{
+    border-bottom: 1px solid;
+    background-color: mediumpurple;
+    font-weight: bold;
+    font-size: larger;
+}
+
+th{
+    background-color: cornflowerblue;
+}
+
+td{
+    background-color: lavender;
+}
+
+
